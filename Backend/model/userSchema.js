@@ -10,10 +10,13 @@ const userSchema=Schema({
     email:{
         type:String
     },
-    mobile:{
+    phone:{
         type:Number
     },
     password:{
+        type:String
+    },
+    Image:{
         type:String
     }
 
